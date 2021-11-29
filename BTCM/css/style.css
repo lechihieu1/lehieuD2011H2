@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: myriad pro, pattaya, san-serif, 'lucida frande'
+}
+img{
+	width: 1200px;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover, a:hover p{
+	color: aqua;
+}
+p{
+	font-size: 18px;
+	color: black;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+/*menu*/
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 15px 20px;
+	text-transform: uppercase;
+}
+.menu img{
+	margin-bottom: -40px;
+}
+.menu img:hover{
+	opacity: 0;
+}
+/*slice*/
+.slice{
+	margin-top: 30px;
+	position: relative;
+}
+.slice .left{
+	width: 500px;
+	position: absolute;
+	left: 100px;
+	top: 200px;	
+}
+.slice .left h2{
+	width: 100px;
+	font-size: 70px;
+	
+	color: #8BCA32;
+}
+.btn{
+	background-color: #758dba;
+	padding: 15px 55px;
+	border-radius: 30px;
+	color: #FFF;
+	font-size:18px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	margin-top: 20px;
+}
+.hidden{
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	margin-right: 20px;
+}
+/*banner*/
+.banner{
+	margin-top: 20px;
+}
+.bannerLeft{
+	width: 680px;
+	height: 590px;
+	margin-right: 20px;
+	float: left;
+	background-image: url("file:///C:/Users/Asus/OneDrive/M%C3%A1y%20t%C3%ADnh/Final/img/cach-chup-hinh-san-pham-quan-ao-dep11.jpg");
+	background-size: cover;
+	position: relative;
+}
+.bannerRight{
+	width: 500px;
+	height: 700px;
+	float: left;
+	background-image: url("file:///C:/Users/Asus/OneDrive/M%C3%A1y%20t%C3%ADnh/Final/img/cac-quy-co-au-chau-co-gi-trong-tu-quan-ao-ngay-dong-638cc8.jpg");
+	background-size: cover;
+}
+.textl{
+	position: absolute;
+	left: 370px;
+	bottom: 80px;
+	font-size: 50px;
+	color: black;
+}
+.view{
+	position: absolute;
+	bottom: 50px;
+	left: 370px;
+	text-transform: uppercase;
+}
+.textR{
+	position: absolute;
+	left: 45px;
+	top: 150px;
+	font-size: 60px;
+	color: black;
+}
+/*content*/
+#title{
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+.sp, .ten, .gia, .mua{
+	width: 270px;
+	margin-left: 20px;
+	float: left;
+	
+}
+.sp:first-child, .ten:first-child, .gia:first-child, .mua:first-child{
+	margin-left: 0;
+}
+.sp{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.sp img{
+	width: 100%;
+}
+.ten p{
+	color: grey;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 16px;
+}
+.gia{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.gia span{
+	font-size: 20px;
+}
+.mua{
+	text-align: center;
+}
+.layer4{
+	margin-bottom: 20px;
+}
+/*banner2*/
+#banner1{
+	background-image: url("file:///C:/Users/Asus/OneDrive/M%C3%A1y%20t%C3%ADnh/Final/img/layer2.jpg");
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+#banner2{
+	background-image: url("file:///C:/Users/Asus/OneDrive/M%C3%A1y%20t%C3%ADnh/Final/img/layer3.jpg");
+	width: 28;
+	margin-top: 20px;
+}
+/*footer*/
+.about{
+	width: 400px;
+	float: left;
+}
+.about #trai{
+	width: 70px;
+	height: 35px;
+	margin-right: 20px;
+	float: left;
+}
+.about #phai{
+	width: 150px;
+	float: left
+}
+.contact{
+	width: 300px;
+	float: left;
+}
+.contact p{
+	margin-top: 10px;
+	color: black;
+}
+.contact span{
+	font-size:22px;
+	font-weight: bold;
+}
+.link{
+	width: 500px;
+	float: left;
+}
+.link p{
+	margin-top: 20px;
+	color: black;
+}
+
